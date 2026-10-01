@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@+id/stat_accent"
+        android:layout_width="@dimen/stat_accent_dot"
+        android:layout_height="@dimen/stat_accent_dot"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/gap_xs"
+        android:background="@drawable/shape_beam_dot"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/stat_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="polite"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/stat_placeholder"
+        android:textAppearance="@style/TextAppearance.App.StatValue" />
+
+    <TextView
+        android:id="@+id/stat_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/stat_score"
+        android:textAppearance="@style/TextAppearance.App.Label" />
+
+</merge>

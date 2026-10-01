@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_base">#11131E</color>
+    <color name="bg_deep">#070810</color>
+    <color name="surface_panel">#1A1D2B</color>
+    <color name="surface_raised">#232739</color>
+    <color name="surface_panel_80">#CC1A1D2B</color>
+    <color name="surface_panel_95">#F21A1D2B</color>
+    <color name="surface_card">#F2141726</color>
+    <color name="gold_core">#F2C54C</color>
+    <color name="gold_deep">#8C7A5A1E</color>
+    <color name="gold_soft">#33F2C54C</color>
+    <color name="gold_edge">#4DF2C54C</color>
+    <color name="gold_hairline">#26F2C54C</color>
+    <color name="red_pulse">#E33B45</color>
+    <color name="chrome_highlight">#33FFFFFF</color>
+    <color name="text_primary">#FFF0D2</color>
+    <color name="text_secondary">#8CFFF0D2</color>
+    <color name="text_muted">#66FFF0D2</color>
+    <color name="text_disabled">#33FFF0D2</color>
+    <color name="on_gold">#11131E</color>
+    <color name="ripple_light">#40FFF0D2</color>
+    <color name="ripple_gold">#26F2C54C</color>
+    <color name="beam_red">#E33B45</color>
+    <color name="beam_gold">#F2C54C</color>
+    <color name="beam_blue">#2F78E8</color>
+    <color name="beam_violet">#7A51C8</color>
+    <color name="beam_cream">#FFF0D2</color>
+    <color name="beam_teal">#22B9A0</color>
+    <color name="beam_amber">#FF8A3D</color>
+    <color name="scrim_game">#A611131E</color>
+    <color name="grid_line">#1AFFF0D2</color>
+    <color name="board_fill">#CC141726</color>
+    <color name="wall_fill">#232739</color>
+    <color name="wall_edge">#33FFF0D2</color>
+</resources>

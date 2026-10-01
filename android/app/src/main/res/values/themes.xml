@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App7Ways" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gold_core</item>
+        <item name="colorOnPrimary">@color/on_gold</item>
+        <item name="colorPrimaryContainer">@color/gold_deep</item>
+        <item name="colorOnPrimaryContainer">@color/text_primary</item>
+        <item name="colorSecondary">@color/beam_blue</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorTertiary">@color/red_pulse</item>
+        <item name="colorOnTertiary">@color/text_primary</item>
+        <item name="colorSurface">@color/surface_panel</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/surface_raised</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/gold_edge</item>
+        <item name="colorError">@color/red_pulse</item>
+        <item name="android:colorBackground">@color/bg_base</item>
+        <item name="android:windowBackground">@color/bg_base</item>
+        <item name="android:statusBarColor">@color/bg_base</item>
+        <item name="android:navigationBarColor">@color/bg_base</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <style name="Theme.App7Ways.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorPrimary">@color/gold_core</item>
+        <item name="colorOnPrimary">@color/on_gold</item>
+        <item name="colorSurface">@color/surface_panel</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+    </style>
+</resources>

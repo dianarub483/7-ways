@@ -1,0 +1,54 @@
+{
+  "assets": [
+    {
+      "name": "icon_1024",
+      "type": "icon",
+      "prompt": "App icon, one single glossy 3D golden number seven emblem, chrome bevel, dark navy radial gradient background, centered, crisp, no text"
+    },
+    {
+      "name": "bg_splash",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game loader background, dark near-black navy slot machine panel with faint red and gold light streaks, cinematic, no text, no UI elements"
+    },
+    {
+      "name": "bg_menu",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game menu background, glossy black and gold retro slot machine cabinet with seven thin colored light lines, vibrant 3D render, no text, no UI elements"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game background, soft blurred dark navy circuit panel with faint gold grid, low contrast for UI overlay, no text, no UI elements"
+    },
+    {
+      "name": "bg_result",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game result background, dark navy panel with a wide radial golden glow from the center, soft red rim light, no text, no UI elements"
+    },
+    {
+      "name": "sprite_seven_emblem",
+      "type": "sprite",
+      "prompt": "One single glossy 3D golden number seven emblem, centered icon, chrome bevel, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_prism_node",
+      "type": "sprite",
+      "prompt": "One single glossy 3D golden diagonal prism plate tile, centered icon, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_emitter_core",
+      "type": "sprite",
+      "prompt": "One single glowing red light emitter orb with a gold ring, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_receiver_ring",
+      "type": "sprite",
+      "prompt": "One single glowing blue receiver ring target, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_overload_burst",
+      "type": "sprite",
+      "prompt": "One single glossy 3D red lightning burst symbol, centered icon, isolated on plain white, no other objects"
+    }
+  ]
+}

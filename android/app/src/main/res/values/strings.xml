@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">7Ways</string>
+
+    <string name="splash_title">7 WAYS</string>
+    <string name="splash_subtitle">SEVEN LINES · ONE CIRCUIT</string>
+    <string name="splash_loading">LOADING</string>
+
+    <string name="menu_title">7 WAYS</string>
+    <string name="menu_subtitle">ROUTE EVERY BEAM · NO CROSSINGS</string>
+    <string name="menu_hint">TAP A PRISM TO ROTATE IT</string>
+    <string name="menu_cta">PLAY</string>
+    <string name="menu_map">LEVEL MAP</string>
+    <string name="menu_howto">HOW IT WORKS</string>
+    <string name="menu_settings">SETTINGS</string>
+    <string name="disclaimer">FOR ENTERTAINMENT ONLY · NO CASH PRIZES</string>
+
+    <string name="stat_best">BEST SCORE</string>
+    <string name="stat_cleared">LEVELS CLEARED</string>
+    <string name="stat_moves">MOVES</string>
+    <string name="stat_checks">CHECKS LEFT</string>
+    <string name="stat_linked">LINKED</string>
+    <string name="stat_score">SCORE</string>
+    <string name="stat_moves_left">MOVES LEFT</string>
+    <string name="stat_placeholder">0</string>
+
+    <string name="game_action">GO</string>
+    <string name="game_action_hint">RUN THE LIGHT LINES</string>
+    <string name="game_undo">UNDO</string>
+    <string name="game_menu">MENU</string>
+    <string name="game_level_fmt">LEVEL %1$d · %2$s</string>
+    <string name="game_level_default">LEVEL 1</string>
+    <string name="game_set_default">BRONZE REELS</string>
+    <string name="game_chip_fmt">MOVES %1$d</string>
+    <string name="game_chip_default">MOVES 0</string>
+    <string name="game_state_fmt">%1$d of %2$d lines linked</string>
+    <string name="count_fmt">%1$d / %2$d</string>
+
+    <string name="result_win">CIRCUIT ACTIVATED</string>
+    <string name="result_lose">OVERLOAD</string>
+    <string name="result_win_sub">ALL LINES LINKED</string>
+    <string name="result_lose_sub">THE PANEL BURNED OUT</string>
+    <string name="result_replay">PLAY AGAIN</string>
+    <string name="result_map">LEVEL MAP</string>
+    <string name="result_menu">MENU</string>
+    <string name="result_new_best">NEW BEST</string>
+    <string name="result_next_fmt">NEXT: LEVEL %1$d</string>
+    <string name="result_retry_fmt">RETRY: LEVEL %1$d</string>
+
+    <string name="map_title">LEVEL MAP</string>
+    <string name="map_subtitle">TWELVE PANELS · THREE SETS</string>
+    <string name="map_close">CLOSE</string>
+    <string name="set_bronze">BRONZE REELS</string>
+    <string name="set_golden">GOLDEN STREAK</string>
+    <string name="set_crimson">CRIMSON OVERLOAD</string>
+    <string name="set_bronze_sub">WARM UP THE PANEL</string>
+    <string name="set_golden_sub">TIGHTER ROUTES</string>
+    <string name="set_crimson_sub">NO ROOM FOR ERROR</string>
+    <string name="level_number_default">1</string>
+    <string name="level_stars_default">· · ·</string>
+    <string name="cd_level_locked_fmt">Level %1$d, locked</string>
+    <string name="cd_level_stars_fmt">Level %1$d, %2$d of 3 stars</string>
+
+    <string name="tutorial_title">HOW IT WORKS</string>
+    <string name="tutorial_subtitle">THREE RULES OF THE PANEL</string>
+    <string name="tutorial_step_one">TAP A PRISM AND IT FLIPS BETWEEN ITS TWO DIAGONALS</string>
+    <string name="tutorial_step_two">EVERY BEAM MUST REACH THE RECEIVER OF ITS OWN COLOR</string>
+    <string name="tutorial_step_three">BEAMS MAY NEVER SHARE A CELL · THREE BAD CHECKS AND THE PANEL OVERLOADS</string>
+    <string name="tutorial_done">GOT IT</string>
+
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_subtitle">PANEL PREFERENCES</string>
+    <string name="settings_sound">SOUND CUES</string>
+    <string name="settings_haptics">HAPTICS</string>
+    <string name="settings_contrast">HIGH CONTRAST BEAMS</string>
+    <string name="settings_reset">RESET PROGRESS</string>
+    <string name="settings_close">CLOSE</string>
+
+    <string name="confirm_title">RESET PROGRESS</string>
+    <string name="confirm_message">ALL SCORES AND STARS WILL BE CLEARED</string>
+    <string name="confirm_yes">RESET</string>
+    <string name="confirm_no">KEEP</string>
+
+    <string name="state_on">On</string>
+    <string name="state_off">Off</string>
+
+    <string name="cd_back">Back to the previous screen</string>
+    <string name="cd_run_check">Run the light lines</string>
+    <string name="cd_board">Beam routing board</string>
+    <string name="cd_emblem">Golden seven emblem</string>
+    <string name="cd_prism">Prism plate</string>
+    <string name="cd_emitter">Light emitter core</string>
+    <string name="cd_receiver">Receiver ring</string>
+    <string name="cd_burst">Overload burst</string>
+</resources>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_base">
+
+    <ImageView
+        android:id="@+id/menu_bg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:importantForAccessibility="no"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_art_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_sheet_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.46" />
+
+    <View
+        android:id="@+id/menu_art_overlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/gradient_menu_art"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@id/gl_art_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/menu_glow"
+        android:layout_width="@dimen/glow_ring"
+        android:layout_height="@dimen/glow_ring"
+        android:background="@drawable/shape_glow_ring"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@id/menu_emblem"
+        app:layout_constraintEnd_toEndOf="@id/menu_emblem"
+        app:layout_constraintStart_toStartOf="@id/menu_emblem"
+        app:layout_constraintTop_toTopOf="@id/menu_emblem" />
+
+    <ImageView
+        android:id="@+id/menu_emblem"
+        android:layout_width="@dimen/emblem_menu"
+        android:layout_height="@dimen/emblem_menu"
+        android:contentDescription="@string/cd_emblem"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sprite_seven_emblem"
+        app:layout_constraintBottom_toTopOf="@id/menu_lamps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <LinearLayout
+        android:id="@+id/menu_lamps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_l"
+        android:gravity="center"
+        android:importantForAccessibility="no"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/gl_sheet_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menu_emblem">
+
+        <View
+            android:id="@+id/lamp_1"
+            android:layout_width="@dimen/beam_dot"
+            android:layout_height="@dimen/beam_dot"
+            android:layout_marginEnd="@dimen/gap_s"
+            android:background="@drawable/shape_beam_dot"
+            android:backgroundTint="@color/beam_red" />
+
+        <View
+            android:id="@+id/lamp_2"
+            android:layout_width="@dimen/beam_dot"
+            android:layout_height="@dimen/beam_dot"
+            android:layout_marginEnd="@dimen/gap_s"
+            android:background="@drawable/shape_beam_dot"
+            android:backgroundTint="@color/beam_gold" />
+
+        <View
+            android:id="@+id/lamp_3"
+            android:layout_width="@dimen/beam_dot"
+            android:layout_height="@dimen/beam_dot"
+            android:layout_marginEnd="@dimen/gap_s"
+            android:background="@drawable/shape_beam_dot"
+            android:backgroundTint="@color/beam_blue" />
+
+        <View
+            android:id="@+id/lamp_4"
+            android:layout_width="@dimen/beam_dot"
+            android:layout_height="@dimen/beam_dot"
+            android:layout_marginEnd="@dimen/gap_s"
+            android:background="@drawable/shape_beam_dot"
+            android:backgroundTint="@color/beam_violet" />
+
+        <View
+            android:id="@+id/lamp_5"
+            android:layout_width="@dimen/beam_dot"
+            android:layout_height="@dimen/beam_dot"
+            android:layout_marginEnd="@dimen/gap_s"
+            android:background="@drawable/shape_beam_dot"
+            android:backgroundTint="@color/beam_cream" />
+
+        <View
+            android:id="@+id/lamp_6"
+            android:layout_width="@dimen/beam_dot"
+            android:layout_height="@dimen/beam_dot"
+            android:layout_marginEnd="@dimen/gap_s"
+            android:background="@drawable/shape_beam_dot"
+            android:backgroundTint="@color/beam_teal" />
+
+        <View
+            android:id="@+id/lamp_7"
+            android:layout_width="@dimen/beam_dot"
+            android:layout_height="@dimen/beam_dot"
+            android:background="@drawable/shape_beam_dot"
+            android:backgroundTint="@color/beam_amber" />
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/menu_sheet"
+        style="@style/Widget.App.Card.Sheet"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/gl_sheet_top">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/sheet_pad"
+                android:paddingTop="@dimen/sheet_pad"
+                android:paddingEnd="@dimen/sheet_pad"
+                android:paddingBottom="@dimen/gap_m">
+
+                <com.FqJvXmR.nKpTzL.core.ui.SectionHeaderView
+                    android:id="@+id/menu_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:headerSubtitle="@string/menu_subtitle"
+                    app:headerTitle="@string/menu_title" />
+
+                <LinearLayout
+                    android:id="@+id/menu_stats_row"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/gap_m"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.FqJvXmR.nKpTzL.core.ui.StatCardView
+                        android:id="@+id/menu_stat_best"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/gap_m"
+                        android:layout_weight="1"
+                        app:statAccent="@color/gold_core"
+                        app:statLabel="@string/stat_best" />
+
+                    <com.FqJvXmR.nKpTzL.core.ui.StatCardView
+                        android:id="@+id/menu_stat_cleared"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:statAccent="@color/beam_blue"
+                        app:statLabel="@string/stat_cleared" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/menu_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/gap_l"
+                    android:layout_marginBottom="@dimen/gap_s"
+                    android:gravity="center"
+                    android:text="@string/menu_hint"
+                    android:textAppearance="@style/TextAppearance.App.Label"
+                    android:textColor="@color/text_secondary" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/menu_play"
+                    style="@style/Widget.App.Button.Primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btn_primary_height"
+                    android:text="@string/menu_cta"
+                    app:icon="@drawable/ic_play_beam" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/gap_s"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/menu_map"
+                        style="@style/Widget.App.Button.Ghost"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/btn_ghost_height"
+                        android:layout_weight="1"
+                        android:text="@string/menu_map" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/menu_howto"
+                        style="@style/Widget.App.Button.Ghost"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/btn_ghost_height"
+                        android:layout_weight="1"
+                        android:text="@string/menu_howto" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/menu_settings"
+                        style="@style/Widget.App.Button.Ghost"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/btn_ghost_height"
+                        android:layout_weight="1"
+                        android:text="@string/menu_settings" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/menu_disclaimer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/gap_s"
+                    android:gravity="center"
+                    android:text="@string/disclaimer"
+                    android:textAppearance="@style/TextAppearance.App.Label"
+                    android:textColor="@color/text_muted"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/gap_s">
+
+    <LinearLayout
+        android:id="@+id/map_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_dialog_panel"
+        android:orientation="vertical"
+        android:padding="@dimen/sheet_pad">
+
+        <com.FqJvXmR.nKpTzL.core.ui.SectionHeaderView
+            android:id="@+id/map_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:headerSubtitle="@string/map_subtitle"
+            app:headerTitle="@string/map_title" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/gap_m"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/map_set_one_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_bronze"
+                    android:textAppearance="@style/TextAppearance.App.Label"
+                    android:textColor="@color/gold_core" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/map_set_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/gap_s"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal"
+                    android:scrollbars="none" />
+
+                <TextView
+                    android:id="@+id/map_set_two_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/gap_l"
+                    android:text="@string/set_golden"
+                    android:textAppearance="@style/TextAppearance.App.Label"
+                    android:textColor="@color/gold_core" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/map_set_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/gap_s"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal"
+                    android:scrollbars="none" />
+
+                <TextView
+                    android:id="@+id/map_set_three_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/gap_l"
+                    android:text="@string/set_crimson"
+                    android:textAppearance="@style/TextAppearance.App.Label"
+                    android:textColor="@color/gold_core" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/map_set_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/gap_s"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal"
+                    android:scrollbars="none" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/map_close"
+            style="@style/Widget.App.Button.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_secondary_height"
+            android:layout_marginTop="@dimen/gap_l"
+            android:text="@string/map_close" />
+
+    </LinearLayout>
+
+</RelativeLayout>
